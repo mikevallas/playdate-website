@@ -85,7 +85,11 @@ a:hover {
 .hero {
   text-align: center;
   padding: 56px 24px 48px;
-  max-width: 760px;
+  /* 880px statt 760px — gibt dem 56px-Hero-Title genug Breite damit
+     "Dates. Parties. Eine App." auf Desktop komfortabel auf einer
+     Zeile bleibt. Sub-Headline hat eigenes max-width: 560px und bleibt
+     visuell schmaler/lesbarer. */
+  max-width: 880px;
   margin: 0 auto;
 }
 
